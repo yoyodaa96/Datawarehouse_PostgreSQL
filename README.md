@@ -12,6 +12,7 @@ L’ensemble du pipeline a été réalisé en PostgreSQL et visualisé dans Powe
 🏗️ Architecture applicative
 
 L’architecture repose sur une structure multi-couches inspirée des bonnes pratiques de la data (type Medallion Architecture) :
+<img width="1037" height="548" alt="image" src="https://github.com/user-attachments/assets/9c11b9d0-3c92-43bf-b53e-cb0c9046607e" />
 
 1️⃣ Bronze Layer — Raw Data
 
@@ -60,6 +61,7 @@ gold.dim_product_reviews → table d’avis clients
 gold.fact_orders → table de faits principale (ventes)
 
 Utilisation de clés de surrogate keys via ROW_NUMBER() pour uniformiser les jointures.
+<img width="1536" height="1024" alt="ChatGPT Image Oct 20, 2025, 05_53_07 PM" src="https://github.com/user-attachments/assets/2847a0d3-25cc-497e-884c-ccfe4f1293be" />
 
 📊 Analyses Power BI réalisées
 
