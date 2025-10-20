@@ -1,8 +1,11 @@
 # Datawarehouse_PostgreSQL
 
  🧠 Projet Data Warehouse & Dashboard Power BI — Analyse des ventes et avis produits
-📌 Contexte du projet
+<img width="1313" height="810" alt="image" src="https://github.com/user-attachments/assets/86c09701-d2fe-45bf-b8e5-53c95b1b5b38" />
 
+
+ 
+📌 Contexte du projet
 L’objectif de ce projet est de concevoir une architecture décisionnelle complète (type Data Warehouse) permettant d’analyser les ventes et les avis clients d’un site e-commerce.
 L’ensemble du pipeline a été réalisé en PostgreSQL et visualisé dans Power BI, selon les principes d’un modèle en étoile (Star Schema).
 
